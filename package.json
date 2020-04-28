@@ -21,7 +21,9 @@
   "homepage": "https://github.com/JubasNTC/json-to-csv-api#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
     "express": "^4.17.1",
+    "express-ip": "^1.0.4",
     "form-data": "^3.0.0",
     "json2csv": "^5.0.0",
     "lodash": "^4.17.15",

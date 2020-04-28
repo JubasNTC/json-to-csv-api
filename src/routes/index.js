@@ -9,7 +9,7 @@ const router = express.Router();
 const json2csvParser = new Parser();
 
 router.get('/', (req, res) => {
-  res.status(200).json({ service: 'working...' });
+  res.status(200).json(req.ipInfo);
 });
 
 router.post('/json2csv', (req, res) => {
